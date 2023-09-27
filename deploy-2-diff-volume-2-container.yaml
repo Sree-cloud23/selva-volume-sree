@@ -28,10 +28,10 @@ spec:
         image: nginx:latest
         volumeMounts:
         - name: volume1
-          mountPath: "/var/nginx-data"
+          mountPath: "/var/nginx-data1"
 
       - name: container2-tomcat
         image: tomcat:latest
         volumeMounts:
         - name: volume2
-          mountPath: "/mnt/tomcat-data"
+          mountPath: "/mnt/tomcat-data2"
